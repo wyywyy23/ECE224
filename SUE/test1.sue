@@ -1,0 +1,16 @@
+# SUE version MMI_SUE5.6.11
+
+proc SCHEMATIC_test1 {} {
+  make nmos -origin {430 320}
+  make dc_supply -voltage 5V -origin {340 360}
+  make global -name gnd -origin {340 390}
+  make dc_supply -voltage 5V -origin {380 200}
+  make global -name gnd -origin {380 230}
+  make resistor -origin {430 430}
+  make global -name gnd -origin {430 470}
+  make_wire 370 320 340 320
+  make_wire 430 360 430 390
+  make_wire 430 160 430 280
+  make_wire 380 160 430 160
+}
+

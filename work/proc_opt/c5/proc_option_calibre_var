@@ -1,0 +1,26 @@
+#undefine $c5d12
+#undefine $c52lm
+#define $c53lm
+#define $c5p2
+#define $c5hr
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///Below is a list of options that can be used for custom rule selection.
+///Please only uncomment one line below.
+///Note: If there are any options that are tabbed in under a specific group, then please uncomment those options and set to YES or NO.
+
+// Tapeout
+//// Note: "Tapeout checks include all checks minus: ,DFM ,antenna checks \nAntenna checks must be run separately for tapeout."
+//#define $GROUP_OPTIONS Tapeout
+
+// Block
+//// Note: "Block level includes all checks minus: ,DFM ,DENSITY/COVERAGE ,antenna checks ,top-level checks"
+//#define $GROUP_OPTIONS Block
+
+// Antenna
+//// Note: "Antenna checks ONLY include antenna DRC rules.\nTapeout check must be run separately for tapeout."
+//#define $GROUP_OPTIONS Antenna
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////

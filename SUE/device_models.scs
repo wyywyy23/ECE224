@@ -1,0 +1,15 @@
+* Device model libraries include file.
+* Generated Apr 16 13:52:46 2016 by c5 tool.
+section Default
+include "$C5_PDK_PATH/models/spectre/amis500cxakxx/Default.scs" section=all
+endsection Default
+
+section Matching
+include "$C5_PDK_PATH/models/spectre/amis500cxakxx/Matching.scs" section=all
+endsection Matching
+
+section SOA
+include "$C5_PDK_PATH/models/spectre/amis500cxakxx/SOA.scs" section=all
+endsection SOA
+
+* End of device model libraries include file.

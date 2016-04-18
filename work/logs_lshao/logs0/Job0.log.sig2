@@ -1,0 +1,93 @@
+\# Program start time UTC 2016.04.16 20:53:30.018
+\# Local time Saturday 16 April 2016, 1:53 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.5 03/11/2013 22:51 (sjfdl066) $
+\o Hierarchy:		/fs/ece/cadence/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.5.500.16.2  (32-bit addresses)
+\# Host name (type):	linux10.engr.ucsb.edu (x86_64)
+\# Operating system:	Linux 2.6.32-573.22.1.el6.x86_64 #1 SMP Wed Mar 23 03:35:39 UTC 2016
+\# X display name (WxH):	linux10.engr.ucsb.edu:80 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x0, current max 0x3ffffa (4194298)
+\# Memory report:	maximum data size 4294967295 (0xffffffff) bytes
+\# Memory report:	maximum process size 4294967295 (0xffffffff) bytes
+\# Initial sbrk value:	375926784 (0x16683000) bytes
+\# Available memory:	4855060 (0x4a1514) kilobytes
+\# System memory:	7946476 (0x7940ec) kilobytes
+\# Maximum memory size:	3955740671 (0xebc7cfff) bytes
+\# Max mem available:	3955740671 (0xebc7cfff) bytes
+\# Initial memory used:	36700160 (0x2300000) bytes
+\# Qt version:		4.5.3
+\# Window Manager:	other
+\# User Name:		lshao
+\o Working Directory:	linux10.engr.ucsb.edu:/fs/student/lshao/VLSI/ECE224/work
+\# Process Id:		7929
+\o 
+\o COPYRIGHT © 1992-2013  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2013  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\# Available memory:	4853156 (0x4a0da4) kilobytes UTC 2016.04.16 20:53:31.299
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading dcm.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading adexl.cxt 
+\o Loading oasis.cxt 
+\o Loading asimenv.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading socket.cxt 
+\o Loading alvs.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\w *WARNING* LIB analogLib from File /fs/student/lshao/VLSI/ECE224/work/cds.lib Line 10 redefines
+\w LIB analogLib from File /fs/ece/cadence/IC616/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\w Insert UNDEFINE analogLib
+\w before DEFINE analogLib
+\w     in /fs/student/lshao/VLSI/ECE224/work/cds.lib
+\w Or remove or comment out DEFINE analogLib
+\w     in /fs/ece/cadence/IC616/tools.lnx86/dfII/etc/cdsDotLibs/artist/cds.lib
+\w to suppress this warning message.
+\w *WARNING* LIB basic from File /fs/student/lshao/VLSI/ECE224/work/cds.lib Line 12 redefines
+\w LIB basic from File /fs/ece/cadence/IC616/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\w Insert UNDEFINE basic
+\w before DEFINE basic
+\w     in /fs/student/lshao/VLSI/ECE224/work/cds.lib
+\w Or remove or comment out DEFINE basic
+\w     in /fs/ece/cadence/IC616/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\w to suppress this warning message.
+\w *WARNING* LIB US_8ths from File /fs/student/lshao/VLSI/ECE224/work/cds.lib Line 14 redefines
+\w LIB US_8ths from File /fs/ece/cadence/IC616/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\w Insert UNDEFINE US_8ths
+\w before DEFINE US_8ths
+\w     in /fs/student/lshao/VLSI/ECE224/work/cds.lib
+\w Or remove or comment out DEFINE US_8ths
+\w     in /fs/ece/cadence/IC616/tools.lnx86/dfII/etc/cdsDotLibs/composer/cds.lib
+\w to suppress this warning message.
+\w *WARNING* ddUpdateLibList: It appears that you are trying to run an OA executable on CDB data. Library 'OSU_stdcells_ami05' contains file '/fs/ece/tech/osu_soc_2.7/cadence/lib/ami05/OSU_stdcells_ami05/prop.xx' which is CDB data. If this is an OA library, this file needs to be removed. If this is a CDB library, use cdb2oa to convert your data from CDB to OA and then try again.
+\w *WARNING* ddUpdateLibList: It appears that you are trying to run an OA executable on CDB data. Library 'MOSIS_Layout_Test' contains file '/fs/ece/tech/ncsu-cdk-1.5.1/lib/MOSIS_Layout_Test/prop.xx' which is CDB data. If this is an OA library, this file needs to be removed. If this is a CDB library, use cdb2oa to convert your data from CDB to OA and then try again.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

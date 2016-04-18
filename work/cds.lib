@@ -1,0 +1,19 @@
+-- File Created by  at Mon Apr 13 16:12:37 2015
+-- assisted by CdsLibEditor
+-- File Created by  at Mon Apr 13 16:06:27 2015
+-- assisted by CdsLibEditor
+
+INCLUDE /ece/cadence/IC616/share/cdssetup/cds.lib
+DEFINE c5 $C5_PDK_PATH/libs/c5/c5
+DEFINE amisCommonLib $C5_PDK_PATH/libs/c5/amisCommonLib 
+DEFINE amisSheetLib $C5_PDK_PATH/libs/c5/amisSheetLib
+DEFINE analogLib /ece/cadence/IC616/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE sbaLib /ece/cadence/IC616/tools/dfII/etc/cdslib/artist/sbaLib
+DEFINE basic /ece/cadence/IC616/tools/dfII/etc/cdslib/basic
+DEFINE sample /ece/cadence/IC616/tools/dfII/samples/cdslib/sample
+DEFINE US_8ths /ece/cadence/IC616/tools/dfII/etc/cdslib/sheets/US_8ths
+
+DEFINE OSU_stdcells_ami05 /ece/tech/osu_soc_2.7/cadence/lib/ami05/OSU_stdcells_ami05
+DEFINE MOSIS_Layout_Test $CDK_DIR/lib/MOSIS_Layout_Test
+DEFINE avTech /ece/cadence/ASSURA41-616/tools/assura/etc/avtech/avTech
+DEFINE test /fs/student/lshao/VLSI/ECE224/work/test

@@ -1,0 +1,27 @@
+# SUE version MMI_SUE5.6.11
+
+proc SCHEMATIC_inv {} {
+  make global -name gnd -origin {380 390}
+  make global -name gnd -origin {190 380}
+  make global -orient RXY -name vdd -origin {380 200}
+  make dc_supply -name vin -voltage 5V -origin {190 320}
+  make name_net_s -name out -origin {430 280}
+  make name_net_s -name in -origin {240 280}
+  make epm -origin {380 240}
+  make inverter_c5 -origin {370 460}
+  make enm -origin {380 320}
+  make dio_nppwd -origin {280 500}
+  make global -name gnd -origin {280 540}
+  make_wire 380 360 380 390
+  make_wire 190 350 190 380
+  make_wire 320 280 320 320
+  make_wire 320 240 320 280
+  make_wire 240 280 190 280
+  make_wire 280 460 340 460
+  make_wire 280 280 240 280
+  make_wire 280 280 320 280
+  make_wire 380 280 430 280
+  make_wire 280 460 280 280
+  make_wire 420 460 450 460
+}
+

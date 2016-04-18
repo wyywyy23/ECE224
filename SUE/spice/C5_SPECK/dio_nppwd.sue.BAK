@@ -1,0 +1,19 @@
+# SUE version MMI_SUE5.3.21
+
+proc ICON_dio_nppwd args {
+  icon_setup $args {{origin {0 0}} {orient R0} {name {}} {M {}} {Area 1.21} {Perimeter 4.4} {model nppwd}}
+  icon_term -type inout -origin {0 40} -name b
+  icon_term -type inout -origin {0 -40} -orient RY -name f
+  icon_line 0 40 0 20 -20 20 20 20
+  icon_line 0 -40 0 -20 -20 -20 0 20 20 -20 0 -20
+  icon_property -origin {-70 80} -type user -name name
+  icon_property -origin {-70 100} -type user -name M
+  icon_property -origin {-70 120} -type user -name Area -default 1.21
+  icon_property -origin {-70 140} -type user -name Perimeter -default 4.4
+  icon_property -origin {-190 230} -type fixed -name spice -text {[unique_name X $name] $f $b $model Area=$Area Perimeter=$Perimeter}
+  icon_property -origin {10 -10} -label {$Area}
+  icon_property -origin {10 0} -label {$Perimeter}
+  icon_property -origin {10 10} -text {[if {$Perimeter != 4.4} {set Perimeter}]}
+  icon_property -origin {-70 160} -type user -name model -default nppwd
+  icon_property -origin {10 30} -text {[if {$model != "nppwd"} {set model}]}
+}

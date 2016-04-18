@@ -1,0 +1,11 @@
+set NETLIST_CACHE(inv,cells) {{icon enm /fs/student/lshao/VLSI/ECE224/SUE/spice/C5_SPECK/enm.sue {}} {schematic inverter_c5 /fs/student/lshao/VLSI/ECE224/SUE/spice/C5_SPECK/inverter.sue {}} {icon epm /fs/student/lshao/VLSI/ECE224/SUE/spice/C5_SPECK/epm.sue {}} {icon dc_supply /ece/mmi/sue/schematics/mspice/dc_supply.sue {}}}
+set netlist_props spice
+set netlist_level 1000
+set NETLIST_CACHE(inv,level) main
+set NETLIST_CACHE(inv,globals) {gnd vdd}
+set NETLIST_EXPLICIT_GLOBALS {}
+set NETLIST_CACHE(inv,warnings) {{NETLIST WARNING: Unconnected net on terminal "out" in icon inverter_c5 "" (964) in schematic "inv".}}
+set NETLIST_CACHE(inv,version) MMI_SUE5.6.11
+set NETLIST_CACHE(inv) {{* start main CELL inv} {* .SUBCKT inv  } {X_1 out in gnd gnd enm W=1 L=ln_min ad='arean(1,sdd)' as='arean(1,sdd)' } {+ pd='perin(1,sdd)' ps='perin(1,sdd)' } {Vvin in gnd DC 5V } {X_2 out in vdd vdd epm W=2 L=lp_min ad='areap(2,sdd)' as='areap(2,sdd)' } {+ pd='perip(2,sdd)' ps='perip(2,sdd)' } {Xinverter_c5 in uc_net_1 inverter_c5 } {* .ENDS	$ inv} {}}
+set NETLIST_CACHE(inv,names) {{380 320 {0 X_1}} {420 460 {0 uc_net_1}} {240 280 {1 in}} {380 240 {0 X_2}} {340 460 {0 in}} {190 350 {0 gnd}} {380 360 {0 gnd}} {380 280 {0 out} {1 out}} {190 320 {0 Vvin}} {430 280 {1 out}} {320 320 {0 in}} {320 240 {0 in}} {370 460 {0 Xinverter_c5}} {190 280 {0 in}} {190 380 {1 gnd}} {380 200 {1 vdd} {2 vdd}} {380 390 {1 gnd}}}
+set NETLIST_CACHE(inv,wires) {{380 360 380 390 gnd} {190 350 190 380 gnd} {320 280 320 320 in} {320 240 320 280 in} {190 280 240 280 in} {280 460 340 460 in} {240 280 280 280 in} {280 280 320 280 in} {380 280 430 280 out} {280 280 280 460 in} {420 460 450 460 uc_net_1}}

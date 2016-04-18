@@ -1,0 +1,10 @@
+set NETLIST_CACHE(test,cells) {{icon nmos /ece/mmi/sue/schematics/mspice/nmos.sue {}} {icon dc_supply /ece/mmi/sue/schematics/mspice/dc_supply.sue {}}}
+set netlist_props spice
+set netlist_level 1000
+set NETLIST_CACHE(test,level) main
+set NETLIST_CACHE(test,globals) gnd
+set NETLIST_EXPLICIT_GLOBALS {}
+set NETLIST_CACHE(test,version) MMI_SUE5.6.11
+set NETLIST_CACHE(test) {{* start main CELL test} {* .SUBCKT test  } {M_1 net_2 net_1 gnd gnd n W='1*1u' L=ln_min ad='arean(1,sdd)' } {+ as='arean(1,sdd)' pd='perin(1,sdd)' ps='perin(1,sdd)' } {V_1 net_1 gnd DC 5V } {V_2 net_2 gnd DC 5V } {* .ENDS	$ test} {}}
+set NETLIST_CACHE(test,names) {{340 360 {0 V_1}} {430 320 {0 M_1}} {380 230 {0 gnd} {2 gnd}} {340 320 {0 net_1}} {430 360 {0 gnd}} {380 200 {0 V_2}} {430 280 {0 net_2}} {380 160 {0 net_2}} {430 390 {1 gnd}} {340 390 {0 gnd} {2 gnd}} {370 320 {0 net_1}}}
+set NETLIST_CACHE(test,wires) {{340 320 370 320 net_1} {430 360 430 390 gnd} {430 160 430 280 net_2} {380 160 430 160 net_2}}

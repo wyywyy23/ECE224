@@ -1,0 +1,13 @@
+; .simrc
+
+
+   ; cdl/lvs
+
+incFILE = strcat(getShellEnvVar("C5_PDK_PATH") "/models/calibre/u0_c5.calibre")
+unless( isFile(incFILE)
+   printf("*Warning* Can't find calibre model file to include <$C5_PDK_PATH/models/calibre/u0_c5.calibre>\n")
+   incFILE = ""
+)
+
+auCdlCDFPinCntrl = t
+auCdlScale = "MICRON"

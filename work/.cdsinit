@@ -1,0 +1,8 @@
+; .cdsinit
+
+; Forcing the PDK library to be accessed (to load libInit.il)
+
+
+fprintf(stdout "Starting c5 library initialization...\n")
+ddGetObj("c5")
+fprintf(stdout "Done with c5 library initialization.\n")

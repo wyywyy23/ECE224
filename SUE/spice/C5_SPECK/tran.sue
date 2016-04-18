@@ -1,0 +1,20 @@
+# SUE version MMI_SUE5.0.9
+proc ICON_tran args {
+  icon_setup $args {{origin {0 0}} {orient R0} {Step 1ps} {Start 0ns} {Stop 10ns} {Opts UIC} {MC 0}}
+  icon_property -origin {70 190} -type user -name Step -default 1ps
+  icon_property -origin {70 210} -type user -name Start -default 0ns
+  icon_property -origin {70 230} -type user -name Stop -default 10ns
+  icon_line 0 0 0 170 290 170 290 0 0 0
+  icon_line 0 40 290 40
+  icon_property -origin {10 20} -label {Transient Analysis}
+  icon_property -origin {10 60} -label {Step:$Step}
+  icon_property -origin {10 80} -label {Start Time:$Start}
+  icon_property -origin {10 130} -label {Opts:$Opts}
+  icon_property -origin {10 100} -label {Stop Time:$Stop}
+  icon_property -origin {70 250} -type user -name Opts -default UIC
+  icon_property -origin {70 270} -type user -name MC -default 0
+  icon_property -origin {10 150} -text {[if {$MC != "0"} {list Monte Carlo:$MC}]}
+  icon_property -origin {-243 303} -type fixed -name spice -text {.tran $Step $Stop start=$Start $Opts [if {$MC != "0" } {list sweep monte=$MC}]}
+}
+
+
