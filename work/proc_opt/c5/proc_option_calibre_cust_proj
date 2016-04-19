@@ -1,5 +1,0 @@
-CUSTOM::DEFINE -name \$c5d12 -boolean 0 -select 0 -enable 0 -prompt "12V devices" -display 0
-CUSTOM::DEFINE -name \$c52lm -boolean 0 -select 0 -enable 0 -prompt "metal1/2" -display 0
-CUSTOM::DEFINE -name \$c53lm -boolean 0 -select 1 -enable 0 -prompt "metal1/2/3" -display 1
-CUSTOM::DEFINE -name \$c5p2 -boolean 0 -select 1 -enable 0 -prompt "poly2 Devices" -display 1
-CUSTOM::DEFINE -name \$c5hr -boolean 0 -select 1 -enable 0 -prompt "high R resistor (requires poly2)" -display 1
